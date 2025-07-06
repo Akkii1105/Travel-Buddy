@@ -1,0 +1,207 @@
+# TravelBuddy - Root Level .gitignore
+
+# Environment Variables and Configuration
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.env
+config.env
+
+# Database Configuration
+config/db.js
+config/database.js
+config/connection.js
+
+# API Keys and Secrets
+**/google-services.json
+**/firebase_options.dart
+**/firebase.json
+**/GoogleService-Info.plist
+**/google-services.json
+**/firebase_options.dart
+
+# JWT Secrets and Authentication
+**/jwt_secret.txt
+**/auth_secret.txt
+**/secret.key
+
+# Node.js Backend
+travelbuddy-backend/node_modules/
+travelbuddy-backend/.env
+travelbuddy-backend/config/db.js
+travelbuddy-backend/logs/
+travelbuddy-backend/*.log
+travelbuddy-backend/npm-debug.log*
+travelbuddy-backend/yarn-debug.log*
+travelbuddy-backend/yarn-error.log*
+
+# Flutter/Dart
+travel_buddy/.dart_tool/
+travel_buddy/.flutter-plugins
+travel_buddy/.flutter-plugins-dependencies
+travel_buddy/.packages
+travel_buddy/.pub-cache/
+travel_buddy/.pub/
+travel_buddy/build/
+travel_buddy/ios/Flutter/.last_build_id
+travel_buddy/ios/Flutter/App.framework
+travel_buddy/ios/Flutter/Flutter.framework
+travel_buddy/ios/Flutter/Flutter.podspec
+travel_buddy/ios/Flutter/Generated.xcconfig
+travel_buddy/ios/Flutter/ephemeral/
+travel_buddy/ios/Flutter/flutter_assets/
+travel_buddy/ios/ServiceDefinitions.json
+travel_buddy/ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+travel_buddy/android/app/debug/
+travel_buddy/android/app/profile/
+travel_buddy/android/app/release/
+travel_buddy/android/app/google-services.json
+travel_buddy/android/.gradle/
+travel_buddy/android/captures/
+travel_buddy/android/gradlew
+travel_buddy/android/gradlew.bat
+travel_buddy/android/local.properties
+travel_buddy/android/GeneratedPluginRegistrant.java
+
+# iOS
+travel_buddy/ios/Runner.xcworkspace/xcshareddata/
+travel_buddy/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/
+travel_buddy/ios/Runner.xcodeproj/xcuserdata/
+travel_buddy/ios/Runner.xcworkspace/xcuserdata/
+travel_buddy/ios/Flutter/App.framework
+travel_buddy/ios/Flutter/Flutter.framework
+travel_buddy/ios/Flutter/Flutter.podspec
+travel_buddy/ios/Flutter/Generated.xcconfig
+travel_buddy/ios/Flutter/ephemeral/
+travel_buddy/ios/Flutter/flutter_assets/
+travel_buddy/ios/ServiceDefinitions.json
+travel_buddy/ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS
+travel_buddy/macos/Flutter/ephemeral/
+travel_buddy/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Windows
+travel_buddy/windows/flutter/ephemeral/
+travel_buddy/windows/flutter/generated_plugin_registrant.cc
+travel_buddy/windows/flutter/generated_plugin_registrant.h
+travel_buddy/windows/flutter/generated_plugins.cmake
+
+# Linux
+travel_buddy/linux/flutter/ephemeral/
+travel_buddy/linux/flutter/generated_plugin_registrant.cc
+travel_buddy/linux/flutter/generated_plugin_registrant.h
+travel_buddy/linux/flutter/generated_plugins.cmake
+
+# Web
+travel_buddy/web/firebase_options.dart
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Local development
+*.local
+local.* 
